@@ -1,0 +1,83 @@
+* {
+    margin: 8px;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: #D6D5C9;
+}
+.header {
+    background-color: #D6D5C9;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header a{
+    font-size: 25px;
+    text-decoration: none;
+    font-family: 'Work Sans', sans-serif;
+    color: black;
+}
+.logo {
+    width: 280px;
+    height: auto;
+}
+.title {
+    background-color: #D6D5C9;
+    font-family: 'Unbounded', sans-serif;
+    font-size: 60px;
+    color: rgb(8, 8, 8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+
+.tarj {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.tarj-contacto {
+    background-color: #314C23;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 684px;
+    height: 684px;
+}
+
+.tarj-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tarj-contacto h2 {
+    font-family: 'Unbounded', sans-serif;
+    font-size: 60px;
+}
+
+.tarj-contacto h3 {
+    font-family: 'Unbounded', sans-serif;
+    font-size: 40px;
+}
+.tarj-contacto ul {
+    font-family: 'Unbounded', sans-serif;
+    font-size: 20px;
+}
+
+.tarj-img {
+    display: flex;
+    height: 700px;
+    width: auto;
+}
