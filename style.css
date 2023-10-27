@@ -183,3 +183,70 @@ h3 {
     justify-content: center;
     align-items: center;
   }
+
+  .productos {
+    background-color: #902923;
+    font-family: 'Work Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 90%;
+    height: 400px;
+    margin: 70px;
+  }
+
+  .productos img{
+    
+    width: 400px;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 40px;
+  }
+
+  
+        /* Estilos para la sección del home */
+        .home-section {
+            background-color: #902923;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Estilos para el encabezado "Autos" */
+        h3 a {
+            color: #000000;
+           
+            font-size: 55px;
+    font-family: 'Unbounded', sans-serif;
+        }
+
+        /* Estilos para la lista horizontal de imágenes */
+        .image-list {
+            list-style: none;
+            padding: 0;
+            display: inline-block;
+            justify-content: center;
+           
+        }
+
+        /* Estilos para los elementos de la lista */
+        .image-list li {
+            margin: 0 10px;
+        }
+
+        /* Estilos para los enlaces de las imágenes */
+        .image-link {
+            display: block;
+        }
+
+        /* Estilos para las imágenes de autos */
+        .car-image {
+            max-width: 300px;
+        }
+        .product-list{
+          display: flex;
+          margin: 15px;
+          text-decoration: none;
+        }

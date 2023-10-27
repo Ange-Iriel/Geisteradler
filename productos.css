@@ -1,0 +1,75 @@
+* {
+    margin: 8px;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: #D6D5C9;
+}
+.header {
+    background-color: #D6D5C9;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header a{
+    font-size: 25px;
+    text-decoration: none;
+    font-family: 'Work Sans', sans-serif;
+    color: black;
+}
+.logo {
+    width: 280px;
+    height: auto;
+}
+.title {
+    background-color: #D6D5C9;
+    font-family: 'Unbounded', sans-serif;
+    font-size: 60px;
+    color: rgb(8, 8, 8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+
+/* Estilos para la lista de productos */
+.product-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilos para cada elemento de producto */
+.product-item {
+    background-color: #524d11;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+/* Estilos para la imagen del producto */
+.product-image {
+    max-width: 400px;
+    margin-right: 10px;
+}
+
+/* Estilos para el título del producto */
+.product-title a {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'Unbounded', sans-serif;
+    font-size: 60px;
+}
+
+/* Estilos para el párrafo del producto */
+.product-description {
+    color: #000000;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+}
