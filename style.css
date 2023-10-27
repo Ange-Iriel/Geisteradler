@@ -116,7 +116,7 @@ body{
 h3 {
     
     font-size: 45px;
-    
+    margin-top: 50px;
   }
   
  .characteristics p {
@@ -190,9 +190,9 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
     width: 90%;
-    height: 400px;
+    height: 600px;
     margin: 70px;
   }
 
@@ -209,7 +209,7 @@ h3 {
   
         /* Estilos para la sección del home */
         .home-section {
-            background-color: #902923;
+            
             padding: 20px;
             text-align: center;
         }
