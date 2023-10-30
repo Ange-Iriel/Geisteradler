@@ -73,3 +73,12 @@ body{
     font-family: 'Work Sans', sans-serif;
     font-size: 25px;
 }
+
+.footer{
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

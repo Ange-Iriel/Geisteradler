@@ -67,3 +67,12 @@ nav img{
   .new-user a:hover {
     color: black; 
   }
+
+  .footer{
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

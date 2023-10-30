@@ -34,52 +34,13 @@ body{
     align-items: center;
     box-sizing: border-box;
 }
-
-
-.tarj {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-
-}
-
-.tarj-contacto {
-    background-color: #314C23;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    width: 684px;
-    height: 684px;
-}
-
-.tarj-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.tarj-contacto h2 {
+h2{
     font-family: 'Unbounded', sans-serif;
-    font-size: 60px;
+    font-size: 45px;
 }
-
-.tarj-contacto h3 {
-    font-family: 'Unbounded', sans-serif;
-    font-size: 40px;
-}
-.tarj-contacto ul {
-    font-family: 'Unbounded', sans-serif;
+p{
+    font-family: 'Work Sans', sans-serif;
     font-size: 20px;
-}
-
-.tarj-img {
-    display: flex;
-    height: 700px;
-    width: auto;
 }
 
 .footer{

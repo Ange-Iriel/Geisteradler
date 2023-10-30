@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geisteradler-Pruebas de Manejo</title>
+  <link rel="stylesheet" href="./reserva.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded&family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <li><a href="./index.html">HOME</a></li>
+        <img src="img/logopng.png" alt="Logo" class="logo">
+        <li><a href="./contact.html">CONTACTO</a></li>
+    </div>
+    <div class="title">
+      <h1>Geisteradler</h1>
+    </div>
+<section>
+    <div>
+        <img src="./img/mustang ruta.jpg" alt="fotografia-mustang">
+    </div>
+    <div class="form-registro">
+        
+<h2>Formulario de Registro</h2>
+
+<form action="procesar.php" method="post">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required><br><br>
+
+    <label for="usuario">Usuario:</label>
+    <input type="text" id="usuario" name="usuario" required><br><br>
+
+    <label for="contrasena">Contraseña:</label>
+    <input type="password" id="contrasena" name="contrasena" required><br><br>
+
+    <label for="modelo">Modelo de Auto:</label>
+    <input type="text" id="modelo" name="modelo" required><br><br>
+
+    <label for="sucursal">Sucursal:</label>
+    <select id="sucursal" name="sucursal">
+        <option value="sucursal1">Sucursal 1</option>
+        <option value="sucursal2">Sucursal 2</option>
+        <option value="sucursal3">Sucursal 3</option>
+        <option value="sucursal4">Sucursal 4</option>
+    </select><br><br>
+    <label for="aceptar-terminos">
+        <input type="checkbox" id="aceptar-terminos" name="aceptar-terminos" required>
+        Acepto los <a href="./TyC.html" target="_blank">términos y condiciones</a>
+    </label><br><br>
+
+
+    <input class="boton"   type="submit" value="Enviar">
+</form>
+</div>
+    </section>
+    <hr>
+    <div class="footer">
+      <p>© 2023 Luxury Cars for Sale. Con apoyo de Sofia.</p>
+    </div>
+</body>
+</html>
