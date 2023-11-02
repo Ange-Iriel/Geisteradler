@@ -183,50 +183,85 @@ h3 {
     justify-content: center;
     align-items: center;
   }
-
-  .productos {
-    background-color: #902923;
+ section{
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .productos {
+  
+    
+    display: flex;
+    align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  
+ }
+ 
+ .boton-productos {
+  
+    font-size: 25px;
     font-family: 'Work Sans', sans-serif;
+    color: #D6D5C9;
+    background-color: #902923;
+    border-radius: 15px;
+    padding: 25px;
+    text-decoration: none;
+    outline: none solid;
+    margin-top: 35px;
+ }
+  
+  .productos button a {
+    color: #D6D5C9; 
+    display: flex;
+    text-decoration: none; 
+    border-bottom: #902923;
+    
+    
+  }
+  .productos button a:visited {
+    color: #D6D5C9; 
+  }
+  
+  .productos button a:hover {
+    color: black; 
+  }
+  .footer{
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    width: 90%;
-    height: 600px;
-    margin: 70px;
   }
 
-  .productos img{
-    
-    width: 400px;
-    height: auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
-    padding: 40px;
-  }
+
+.boton-productos:hover {
+  background-color: #691d19; 
+}
+
+ 
+
 
   
         /* Estilos para la sección del home */
         .home-section {
-            
             padding: 20px;
             text-align: center;
         }
 
         /* Estilos para el encabezado "Autos" */
-        h3 a {
-            color: #000000;
-           
-            font-size: 55px;
-    font-family: 'Unbounded', sans-serif;
-        }
+        
 
         /* Estilos para la lista horizontal de imágenes */
         .image-list {
             list-style: none;
             padding: 0;
-            display: inline-block;
+            flex-wrap: wrap;
             justify-content: center;
            
         }
@@ -237,9 +272,9 @@ h3 {
         }
 
         /* Estilos para los enlaces de las imágenes */
-        .image-link {
+        /* .image-link {
             display: block;
-        }
+        } */
 
         /* Estilos para las imágenes de autos */
         .car-image {
@@ -250,3 +285,94 @@ h3 {
           margin: 15px;
           text-decoration: none;
         }
+  
+        
+
+        
+        /* Estilos para pantallas de 1024px */
+        @media screen and (max-width: 1440px) and (min-width: 1024px) {
+          /* Estilos específicos para pantallas entre 1024px y 1440px */
+          /* ... */
+        }
+        
+        /* Estilos para pantallas de 768px (tabletas y dispositivos móviles) */
+        @media screen and (max-width: 1024px) and (min-width: 768px) {
+          .title {
+            background-color: #D6D5C9;
+            font-family: 'Unbounded', sans-serif;
+            font-size: 45px;
+            color: rgb(8, 8, 8);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-sizing: border-box;
+        }
+        }
+        
+        /* Estilos para pantallas más pequeñas, como dispositivos móviles (hasta 767px) */
+        @media screen and (max-width: 768px) {
+          .title {
+            background-color: #D6D5C9;
+            font-family: 'Unbounded', sans-serif;
+            font-size: 20px;
+            color: rgb(8, 8, 8);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-sizing: border-box;
+        }
+        .logo {
+          width: 90px;
+          height: auto;
+      }
+      .car{
+        display: none;
+      }
+      .header a{
+        font-size: 10px;
+        
+    }
+    .introduccion h2{
+      font-size: 15px;
+  }
+  p{
+    font-size: 10px;
+  }
+  h3 {
+    
+    font-size: 15px;
+   
+  }
+  .characteristics p{
+    font-size: 10px;
+  }
+  .subtitle{
+    
+    display: flex;
+    align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  }
+  .subtitle h3{
+  
+    font-size: 15px;
+  }
+
+  .subtitle p{
+    
+    font-size: 10px;
+   
+    
+  }
+  .subtitle button{
+    font-size: 15px;
+    
+  }
+  .boton-productos {
+  
+    font-size: 15px;
+  }
+        }        

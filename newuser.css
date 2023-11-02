@@ -103,3 +103,94 @@ nav img{
     justify-content: center;
     align-items: center;
   }
+
+
+
+
+  
+  
+  /* Estilos para pantallas de 1024px */
+  @media screen and (max-width: 1440px) and (min-width: 1024px) {
+    nav img{
+        display: none;
+    }
+
+  }
+  
+  /* Estilos para pantallas de 768px (tabletas y dispositivos móviles) */
+  @media screen and (max-width: 1024px) and (min-width: 768px) {
+    nav img{
+        display: none;
+    }
+    .logo {
+        width: 180px;
+        height: auto;
+    }
+    .title {
+        background-color: #D6D5C9;
+        font-family: 'Unbounded', sans-serif;
+        font-size: 50px;
+        color: rgb(8, 8, 8);
+       
+    }
+  }
+  
+  /* Estilos para pantallas más pequeñas, como dispositivos móviles (hasta 767px) */
+  @media screen and (max-width: 768px) {
+    .header a{
+        font-size: 10px;
+        
+    }
+    .logo {
+        width: 90px;
+        height: auto;
+    }
+    
+    nav img{
+        display: none;
+    }
+    
+    .title {
+        background-color: #D6D5C9;
+        font-family: 'Unbounded', sans-serif;
+        font-size: 15px;
+        color: rgb(8, 8, 8);
+       
+    }
+    .form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #A87258;
+        width: 80%;
+        height: 700px;
+        
+    }
+    nav {
+        flex-direction: column;
+    }
+    .login-img {
+        display: none;
+  }
+  #login{
+    
+    font-family: 'Unbounded', sans-serif;
+     color: black;
+     font-size: 20px;
+}
+h2 {
+    font-size: 20px;
+}
+label {
+    font-size: 15px;
+}
+.boton{
+    font-size: 15px;
+}
+p {
+    font-size: 12px;
+}
+.new-user {
+    font-size: 12px;
+}
+  }

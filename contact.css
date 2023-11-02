@@ -90,3 +90,84 @@ body{
     justify-content: center;
     align-items: center;
   }
+
+  @media screen and (min-width: 1440px) {
+    /* Estilos específicos para pantallas de 1440px */
+    /* ... */
+  }
+  
+  /* Estilos para pantallas de 1024px */
+  @media screen and (max-width: 1440px) and (min-width: 1024px) {
+    .tarj-img{
+        display: none;
+    }
+  }
+  
+  /* Estilos para pantallas de 768px (tabletas y dispositivos móviles) */
+  @media screen and (max-width: 1024px) and (min-width: 768px) {
+    .tarj-img{
+        display: none;
+    }
+    .tarj-contacto h2 {
+        font-family: 'Unbounded', sans-serif;
+        font-size: 50px;
+    }
+    .tarj-contacto h3 {
+        font-family: 'Unbounded', sans-serif;
+        font-size: 30px;
+    }
+    .tarj-contacto ul {
+        font-family: 'Unbounded', sans-serif;
+        font-size: 20px;
+    }
+    .logo {
+        width: 180px;
+        height: auto;
+    }
+    .title {
+        
+        font-family: 'Unbounded', sans-serif;
+        font-size: 50px;
+        color: rgb(8, 8, 8);
+        
+    }
+  }
+  
+  /* Estilos para pantallas más pequeñas, como dispositivos móviles (hasta 767px) */
+  @media screen and (max-width: 768px) {
+    .tarj-img{
+        display: none;
+    }
+    .tarj-contacto h2 {
+        font-family: 'Unbounded', sans-serif;
+        font-size: 30px;
+    }
+    .tarj-contacto h3 {
+        font-family: 'Unbounded', sans-serif;
+        font-size: 25px;
+    }
+    .tarj-contacto ul {
+        font-family: 'Unbounded', sans-serif;
+        font-size: 15px;
+    }
+    .logo {
+        width: 180px;
+        height: auto;
+    }
+    .title {
+        
+        font-family: 'Unbounded', sans-serif;
+        font-size: 25px;
+        color: rgb(8, 8, 8);
+        
+    }
+    .tarj-contacto {
+        background-color: #314C23;
+        
+        width: 80%;
+        height: 684px;
+    }
+    .header a{
+        font-size: 10px;
+    }
+  }
