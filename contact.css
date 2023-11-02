@@ -131,6 +131,9 @@ body{
         color: rgb(8, 8, 8);
         
     }
+    .footer{
+        font-size: 10px;
+      }
   }
   
   /* Estilos para pantallas más pequeñas, como dispositivos móviles (hasta 767px) */
@@ -170,4 +173,7 @@ body{
     .header a{
         font-size: 10px;
     }
+    .footer{
+        font-size: 10px;
+      }
   }
