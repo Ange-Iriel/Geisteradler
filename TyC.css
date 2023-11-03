@@ -69,6 +69,9 @@ p{
     p {
         font-size: 15px;
     }
+    .footer {
+        font-size: 15px;
+    }
   }
   
   /* Estilos para pantallas de 768px (tabletas y dispositivos móviles) */

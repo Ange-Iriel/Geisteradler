@@ -133,6 +133,9 @@ nav img{
         color: rgb(8, 8, 8);
        
     }
+    .footer {
+        font-size: 15px;
+    }
   }
   
   /* Estilos para pantallas más pequeñas, como dispositivos móviles (hasta 767px) */

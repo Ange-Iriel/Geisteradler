@@ -165,6 +165,9 @@ a :active {
         width: 180px;
         height: auto;
     }
+    .footer {
+        font-size: 15px;
+    }
   }
   
   /* Estilos para pantallas más pequeñas, como dispositivos móviles (hasta 767px) */
